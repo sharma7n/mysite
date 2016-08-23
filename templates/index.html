@@ -1,6 +1,29 @@
-{% extends "bootstrap/base.html" %}
-{% block title %}Nik Sharma{% endblock %}
+{% extends "base.html" %}
 
 {% block content %}
-Hello, world!
+
+	<b>About</b><br>
+	<ul>
+		<li>27-year old self-taught programmer living in Chicago.</li>
+		<li>2+ years working in software development.</li>
+		<li>Hobbyist <a href="https://www.youtube.com/user/Merk2/videos?sort=dd&shelf_id=0&view=0">composer</a> and <a href="{{ url_for('ashenvale') }}">game designer</a>.</li>
+		<li>Team member at <a href="https://animechicago.com/">AnimeChicago</a>.</li>
+	</ul>
+
+	<b>Projects</b><br>
+	<ul>
+		<li>Upcoming (ruby / rails) - A tennis stats machine.</li>
+		<li><a href="https://purrfection.herokuapp.com">purrfection</a> (python / flask) - A dating site for cats.</li>
+		<li><a href="https://donut-api.herokuapp.com/">donut-api</a> (python / flask) - An API for imaginary donuts.</li>
+		<li><a href="https://jojokes.herokuapp.com/">jojokes</a> (python / flask) - JoJo's Bizarre Joke Generator.</li>
+	</ul>
+
+	<b>Contact</b><br>
+	<ul>
+		<li>Email: <a href="mailto:sharma7n@gmail.com">sharma7n@gmail.com</a></li>
+		<li>GitHub: <a href="https://github.com/sharma7n">https://github.com/sharma7n</a></li>
+		<li>LinkedIn: <a href="https://www.linkedin.com/in/nik-sharma-58044712">https://www.linkedin.com/in/nik-sharma-58044712</a></li>
+		<li>Twitter: <a href="https://twitter.com/sharma7n">@sharma7n</a></li>
+	</ul>
+
 {% endblock %}
